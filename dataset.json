@@ -1,0 +1,120 @@
+{
+  "courses": [
+    {
+      "id": "CS101",
+      "name": "Introduction to Computer Science",
+      "description": "Comprehensive course covering fundamentals of computer science, programming paradigms, data structures, and algorithms. Essential for aspiring software engineers and computer scientists.",
+      "semester": "Sem 1",
+      "credits": 4,
+      "faculty": "Dr. Rajesh Kumar",
+      "keywords": ["programming", "algorithms", "data structures", "computer science"]
+    },
+    {
+      "id": "SE201",
+      "name": "Software Engineering",
+      "description": "Advanced course on software development lifecycle, design patterns, testing methodologies, and project management. Covers agile and waterfall approaches.",
+      "semester": "Sem 3",
+      "credits": 4,
+      "faculty": "Prof. Anita Sharma",
+      "keywords": ["software development", "design patterns", "testing", "agile"]
+    },
+    {
+      "id": "AI301",
+      "name": "Artificial Intelligence and Machine Learning",
+      "description": "In-depth exploration of AI algorithms, neural networks, deep learning, natural language processing, and computer vision. Includes practical projects using TensorFlow and PyTorch.",
+      "semester": "Sem 5",
+      "credits": 4,
+      "faculty": "Dr. Priya Verma",
+      "keywords": ["artificial intelligence", "machine learning", "neural networks", "deep learning"]
+    },
+    {
+      "id": "DB301",
+      "name": "Database Management Systems",
+      "description": "Study of database design, normalization, SQL query optimization, and transaction management. Covers both relational and NoSQL databases.",
+      "semester": "Sem 3",
+      "credits": 3,
+      "faculty": "Dr. Vikram Singh",
+      "keywords": ["database", "SQL", "normalization", "data management"]
+    }
+  ],
+  "faculty": [
+    {
+      "id": "F001",
+      "name": "Dr. Rajesh Kumar",
+      "title": "Professor of Computer Science",
+      "specialization": "Algorithms and Data Structures",
+      "description": "Dr. Rajesh Kumar is a renowned professor with over 15 years of experience in teaching and research. He specializes in algorithmic paradigms and computational complexity theory.",
+      "research_interests": ["algorithms", "computational complexity", "distributed systems"],
+      "publications": 47
+    },
+    {
+      "id": "F002",
+      "name": "Prof. Anita Sharma",
+      "title": "Associate Professor",
+      "specialization": "Software Engineering and DevOps",
+      "description": "Prof. Anita Sharma brings industry experience with expertise in software architecture, cloud computing, and DevOps practices. She has guided over 50 thesis projects.",
+      "research_interests": ["software architecture", "cloud computing", "DevOps", "CI/CD"],
+      "publications": 32
+    },
+    {
+      "id": "F003",
+      "name": "Dr. Priya Verma",
+      "title": "Assistant Professor",
+      "specialization": "Artificial Intelligence and Deep Learning",
+      "description": "Dr. Priya Verma is an AI researcher focusing on deep learning applications in healthcare and computer vision. Her work has been published in top-tier conferences.",
+      "research_interests": ["deep learning", "computer vision", "NLP", "healthcare AI"],
+      "publications": 28
+    },
+    {
+      "id": "F004",
+      "name": "Dr. Vikram Singh",
+      "title": "Professor",
+      "specialization": "Database Systems and Big Data",
+      "description": "Dr. Vikram Singh is an expert in database optimization and big data analytics. He leads the institutional Big Data Lab and collaborates with industry partners.",
+      "research_interests": ["database optimization", "big data analytics", "data warehousing"],
+      "publications": 54
+    }
+  ],
+  "research": [
+    {
+      "id": "R001",
+      "title": "Efficient Algorithms for Large-Scale Graph Processing",
+      "authors": ["Dr. Rajesh Kumar", "Prof. Anita Sharma"],
+      "year": 2023,
+      "journal": "IEEE Transactions on Computing",
+      "description": "This research paper presents novel algorithms for processing large-scale graphs with applications in social networks and recommendation systems.",
+      "keywords": ["graph algorithms", "distributed computing", "scalability"],
+      "impact_factor": 3.7
+    },
+    {
+      "id": "R002",
+      "title": "Deep Learning Models for Medical Image Segmentation",
+      "authors": ["Dr. Priya Verma", "Dr. Vikram Singh"],
+      "year": 2023,
+      "journal": "Pattern Recognition Letters",
+      "description": "Novel deep learning architecture for accurate medical image segmentation, achieving state-of-the-art results on benchmark datasets.",
+      "keywords": ["deep learning", "medical imaging", "computer vision", "segmentation"],
+      "impact_factor": 4.1
+    },
+    {
+      "id": "R003",
+      "title": "Cloud-Native Database Architecture for IoT Applications",
+      "authors": ["Prof. Anita Sharma", "Dr. Vikram Singh"],
+      "year": 2022,
+      "journal": "Journal of Cloud Computing",
+      "description": "Proposes an innovative cloud-native database design optimized for handling high-velocity IoT data streams with minimal latency.",
+      "keywords": ["cloud computing", "IoT", "database design", "edge computing"],
+      "impact_factor": 3.2
+    },
+    {
+      "id": "R004",
+      "title": "Federated Learning in Distributed Healthcare Networks",
+      "authors": ["Dr. Priya Verma"],
+      "year": 2024,
+      "journal": "ACM Computing Surveys",
+      "description": "Comprehensive survey on federated learning techniques for privacy-preserving machine learning in healthcare applications.",
+      "keywords": ["federated learning", "privacy", "healthcare AI", "distributed learning"],
+      "impact_factor": 5.2
+    }
+  ]
+}
